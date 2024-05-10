@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.header {
+  color: white;
+}
+.latest-match-container {
+  background-color: #1e293b;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.venue-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .venue-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    display: none;
+  }
+}
+.sm-team-logo {
+  width: 120px;
+  height: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-team-logo {
+    display: none;
+  }
+}
+.lg-team-logo {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-team-logo {
+    display: block;
+    width: 100%;
+    max-width: 230px;
+    height: 180px;
+  }
+}
